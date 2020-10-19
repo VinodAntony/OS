@@ -1,7 +1,6 @@
 #include<stdio.h>
+#include"arith.h"
 
-int add(int, int);
-int sub(int, int);
 int main(int argc, char const *argv[])
 {
 	printf("addition result = %d \n\n",add(10,10));
