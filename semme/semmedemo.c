@@ -19,7 +19,7 @@ void* dec_thread(void *arg){
 		sem_wait(&count_sem);
 		--count;
 		printf("Decrement thread: %d\n",count);
-		sem_post(&count_sem);
+		sem_post(&count _sem);
 	}
 }
 int main(int argc, char const *argv[])
