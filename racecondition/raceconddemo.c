@@ -25,7 +25,7 @@ int main(int argc, char const *argv[])
 	sleep(1);
 	printf("after sleep function\n");*/
 	pthread_join(tid_inc,NULL);
-	pthread_join(tid_dec,NULL);
+	pthread_join(tid_dec,NULL); 
 	return 0;
 }
 
